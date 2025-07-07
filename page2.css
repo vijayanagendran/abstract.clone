@@ -1,0 +1,201 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: black;
+            color: white;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 9%;
+        }
+
+        .nav-right {
+            display: flex;
+            justify-content: end;
+            height: 60%;
+        }
+
+        .nav-right-alt {
+            display: none;
+        }
+
+        .nav-right-alt i {
+            margin-left: 10px;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            height: 60%;
+        }
+
+        .nav-left h1 {
+            margin-left: 10px;
+            font-size: 19px;
+        }
+
+        .btn {
+            padding: 8px 10px;
+            margin-left: 10px;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+
+        .btn-1 {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+        }
+
+        .btn-2 {
+            background-color: #4C5FD5;
+            color: white;
+            border: 1px solid #4C5FD5;
+        }
+
+        .input {
+            width: 40%;
+        }
+
+        .header1 {
+            height: 45vh;
+            background-color: #dadbf1;
+            display: flex;
+        }
+
+        .cont {
+            width: 80%;
+            margin-top: 40px;
+        }
+
+        .cont a {
+            text-decoration: none;
+            padding-left: 22vh;
+            color: #191a1b;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 9px;
+        }
+
+        .cont a:hover {
+            color: #4C5FD5;
+        }
+
+        .cont h6 {
+            padding-left: 32vh;
+            margin-top: -12px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 9px;
+            color: #191a1b;
+        }
+
+        .cont h1 {
+            font-size: 40px;
+            width: 70%;
+            color: #000000;
+            letter-spacing: -1px;
+            margin-top: -7px;
+            margin-left: 50px;
+            padding-left: 40px;
+            line-height: 70px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .cont p {
+            padding-left: 90px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13px;
+            color: #191a1b;
+            margin-top: -4px;
+            /* padding-right: 80px; */
+        }
+
+        section {
+            margin-top: 20vh;
+            width: 85%;
+            padding-left: 15vh;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .cont-name1{
+            width: 90%;
+            padding-left: 3vh;
+        }
+        .cont-name1 h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: #191a1b;
+            margin-top: 50px;
+            height: 12vh;
+        }
+
+        .cont-name1 ul li {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12px;
+            margin-left: 6vh;
+            margin-top: 8px;
+        }
+
+
+        footer {
+            margin-top: 80px;
+            width: 100%;
+            min-height: 40vh;
+            background-color: black;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 50px;
+        }
+
+        .foot-item ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 10px;
+        }
+
+        .foot-item ul li {
+            list-style: none;
+            margin-top: 3px;
+            font-size: 5px;
+        }
+
+        .foot-item h2 {
+            margin-top: 30px;
+            font-size: 13px;
+            margin-bottom: 10px;
+
+        }
+
+        .foot-left {
+            display: flex;
+            width: 65%;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .foot-right {
+            width: 16%;
+            display: flex;
+            align-items: end;
+            font-size: 9px;
+        }
+
+
+
+
+        @media screen and (max-width:750px) {
+            .nav-right {
+                display: none;
+            }
+
+            .nav-right-alt {
+                display: block;
+            }
+
+        }
